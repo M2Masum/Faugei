@@ -1,1 +1,25 @@
-@import "tailwindcss"
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@layer utilities{
+    .noto{
+        font-family: 'Noto Serif', serif;
+    }
+    .inter{
+        font-family: 'Inter', sans-serif;
+    }
+    .bitcount{
+        font-family: 'Bitcount Prop Single', monospace;
+    }
+
+
+
+
+    .text-active{
+        color: #252432;
+    }
+    .text-regular{
+        color: #8987A1;
+    }
+}
