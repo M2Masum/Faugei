@@ -7,9 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="mx-auto">
+<body class="mx-auto"> 
     <header>
-        <nav class="flex justify-between items-center mt-2 ml-20 mr-20">
+        <nav class="flex justify-between items-center mt-2 ml-5 mr-5 md:ml-20 md:mr-20">
             <span class="flex items-center">
                 <img src="assets/logo.png" alt="Faugei Logo" class="logo">
             </span>
@@ -28,17 +28,18 @@
             </ul>
         </nav>
     </header>
-    <section class="m-auto items-center mt-20 ml-20 mr-20">
-        <div class="flex">
-            <span class="flex flex-col justify-end items-start mb-2">
-                <p class="noto font-bold text-6xl"> 
+    <section class="m-auto items-center mt-20 ml-4 mr-4 md:ml-20 md:mr-20">
+        <div class="flex flex-col-reverse md:flex-row">
+            <span class="flex flex-col justify-end items-start mb-2 md:mr-8 text-left">
+                <p class="noto font-bold text-2xl md:text-6xl">
                     ALWAYS <span class="noto text-orange-600">FRESH <br> FLOWERS</span>
                 </p>
-                <p class="text-gray-500 inter font-normal">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+                <p class="text-gray-500 inter font-normal">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+                </p>
             </span>
-            <img src="assets/hero-flower.png" alt="" class="self-end mb-2">
-        </div>   
-         
+            <img src="assets/hero-flower.png" alt="" class="self-end mb-2 w-full md:w-auto">
+        </div>
     </section>
     <section class="m-auto items-center mt-20 ml-20 mr-20">
         <h2 class="noto text-5xl font-bold text-center"><span class="text-orange-600">Our</span> Plants</h2>
@@ -113,7 +114,7 @@
             </div>
             <!-- Text Section -->
             <div class="flex flex-col w-full md:w-1/2">
-                <h2 class="noto font-bold text-5xl mb-4 mt-5">Flower & Plants Lover</h2>
+                <h2 class="noto font-bold text-2xl md:text-5xl mb-4 mt-5">Flower & Plants Lover</h2>
                 <ul class="inter text-md list-disc pl-6 space-y-2 text-gray-500">
                     <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                     <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
@@ -122,44 +123,42 @@
             </div>
         </div>
     </section>
-    <section>
-        <h2>Latest Deals</h2>
-        <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+    <section class="m-auto items-center mt-20 ml-5 mr-5 md:ml-20 md:mr-20">
+        <h2 class="noto font-bold text-2xl md:text-5xl mb-4 mt-20 text-center"><span class="text-orange-600">Latest</span> Deals</h2>
+        <p class="inter text-md text-gray-500 text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
         <!-- Left Column: Two Images Stacked -->
         <div class="flex flex-col gap-4">
             <!-- Image 1 -->
-            <div class="relative h-48 md:h-40 lg:h-48 rounded-lg overflow-hidden bg-cover bg-center" style="background-image: url('assets/deal-bloom.png');">
+            <div class="relative h-48 md:h-40 lg:h-48 rounded-lg overflow-hidden bg-cover bg-center" style="background-image: url('assets/deal-bloom.png');"> 
                 <div class="absolute inset-0 flex flex-col items-center justify-center">
-                    <span class="text-white font-bold text-xl md:text-2xl mb-1 drop-shadow">60% Off | Bloom Plant</span>
+                    <span class="text-white noto font-bold text-2xl md:text-2xl mb-1 drop-shadow">60% Off | Bloom Plant</span>
             
-                    <a href="#" class="text-white hover:text-orange-500 font-medium underline underline-offset-4 drop-shadow">Shop Now</a>
+                    <a href="#" class="text-white inter hover:text-orange-500 font-semibold underline underline-offset-4 drop-shadow">Shop Now</a>
                 </div>
             </div>
             <!-- Image 2 -->
             <div class="relative h-48 md:h-40 lg:h-48 rounded-lg overflow-hidden bg-cover bg-center" style="background-image: url('assets/deal-ana.png');">
                 <div class="absolute inset-0 flex flex-col items-center justify-center">
-                    <span class="text-white font-bold text-xl md:text-2xl mb-1 drop-shadow">30% off</span>
-                    <span class="text-white font-semibold text-lg md:text-xl mb-2 drop-shadow">Bloom Plant</span>
-                    <a href="#" class="text-white hover:text-orange-500 font-medium underline underline-offset-4 drop-shadow">Shop Now</a>
+                    <span class="text-white noto font-bold text-2xl md:text-2xl mb-1 drop-shadow">30% Off | Ana  Plant</span>
+                    <a href="#" class="text-white inter hover:text-orange-500 font-semibold underline underline-offset-4 drop-shadow">Shop Now</a>
                 </div>
             </div>
         </div>
         <!-- Right Column: One Tall Image -->
-        <div class="relative h-[412px] md:h-full rounded-lg overflow-hidden flex-1 border-4bg-cover bg-center" style="background-image: url('assets/deal-zabo.png'); min-height: 200px;">
-            <div class="absolute inset-0 flex flex-col items-center justify-center">
-                <span class="text-white font-bold text-2xl md:text-3xl mb-1 drop-shadow">30% off</span>
-                <span class="text-white font-semibold text-xl md:text-2xl mb-2 drop-shadow">Bloom Plant</span>
-                <a href="#" class="text-white hover:text-orange-500 font-medium underline underline-offset-4 drop-shadow">Shop Now</a>
+        <div class="relative h-[412px] md:h-full rounded-lg overflow-hidden flex-1 bg-cover bg-center flex items-center justify-center" style="background-image: url('assets/deal-zabo.png'); min-height: 200px;">
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-center w-full h-full">
+                <span class="text-white noto font-bold text-2xl md:text-4xl mb-1 drop-shadow">25% Off | Zabo Plant</span>
+                <a href="#" class="text-white inter hover:text-orange-500 font-semibold text-lg underline underline-offset-4 drop-shadow">Shop Now</a>
             </div>
         </div>
     </div>
     </section>
     <section class="bg-[url(assets/news-letter-bg.png)] bg-cover bg-center text-white p-10 mt-20 flex flex-col items-center justify-center" style="min-height: 250px; height: 40vh;">
-        <h2 class="text-3xl font-bold mb-4 text-center">Join the colorful Bunch</h2>
+        <h2 class="noto text-3xl font-bold mb-4 text-center">Join the colorful Bunch</h2>
         <form class="flex flex-row items-center w-full max-w-md justify-center">
-            <input class="bg-white text-gray-500 px-4 py-2 w-full" type="email" id="email" name="email" placeholder="Write email">
-            <button class="text-white bg-orange-600 px-6 py-2 -ml-px" type="submit">Subscribe</button>
+            <input class="inter bg-white text-gray-500 px-4 py-2 w-full" type="email" id="email" name="email" placeholder="Write email">
+            <button class="inter text-white bg-orange-600 px-6 py-2 -ml-px" type="submit">Subscribe</button>
         </form>
     </section>  
     <footer class="m-auto items-center mt-10 3xl:ml-20 3xl:mr-20">
